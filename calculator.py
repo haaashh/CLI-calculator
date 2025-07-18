@@ -12,9 +12,10 @@ def div(a,b):
     if b == 0:
         return "Can't divide by zero."
     return a/b
+print("CALCULATOR\n")
 
 while True:
-    print("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit\nChoose from 1-5")
+    print("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit\nChoose from 1-5: ")
     ch=(input())
     if ch=='5':
          print("Exited")
@@ -38,7 +39,7 @@ while True:
             result = mul(x,y)
     elif ch=='4':
             result = div(x,y)
-    print(f"Result: {result}")
+    print(f"Result: {result}\n")
 
 
     
